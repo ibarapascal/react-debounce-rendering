@@ -1,0 +1,32 @@
+{
+  "name": "react-debounce-rendering",
+  "version": "1.0.0",
+  "description": "react-debounce-render with typescript",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibarapascal/react-debounce-rendering.git"
+  },
+  "author": "ibarapascal",
+  "license": "N/A",
+  "bugs": {
+    "url": "https://github.com/ibarapascal/react-debounce-rendering/issues"
+  },
+  "homepage": "https://github.com/ibarapascal/react-debounce-rendering#readme",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/react": "^16.9.19"
+  }
+}
