@@ -2,8 +2,19 @@
 
 [react-debounce-render](https://github.com/podefr/react-debounce-render) + typescript
 
+```shell
+npm install --save react-debounce-rendering
+```
+
 ```tsx
 const debouncedComponent = debounceRender(<YourComponent>, 1000, {})
+```
+
+Notice usage with redux:  
+
+```tsx
+connect(...)(debounceRender(YourComponent)) // This works well
+debounceRender(connect(...)(YourComponent)) // This is not
 ```
 
 ## Publish a package for react + typescript
