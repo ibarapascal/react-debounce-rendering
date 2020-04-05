@@ -1,11 +1,7 @@
-<p align="center">
-  <a href="https://www.npmjs.com/react-debounce-rendering"><img src="https://img.shields.io/npm/v/react-debounce-rendering.svg?label=%20&style=flat-square" alt="react-debounce-rendering NPM package" /></a>
-  <a href="https://www.npmjs.com/react-debounce-rendering"><img src="https://img.shields.io/npm/dw/react-debounce-rendering.svg?style=flat-square" alt="Download arkit" /></a>
-</p>
-
----
-
 # react-debounce-rendering
+
+<a href="https://www.npmjs.com/react-debounce-rendering"><img src="https://img.shields.io/npm/v/react-debounce-rendering.svg?label=%20&style=flat-square" alt="react-debounce-rendering NPM package" /></a>
+<a href="https://www.npmjs.com/react-debounce-rendering"><img src="https://img.shields.io/npm/dw/react-debounce-rendering.svg?style=flat-square" alt="Download arkit" /></a>
 
 [react-debounce-render](https://github.com/podefr/react-debounce-render) + typescript
 
@@ -23,6 +19,8 @@ Notice usage with redux:
 connect(...)(debounceRender(YourComponent)) // This works well
 debounceRender(connect(...)(YourComponent)) // This is not
 ```
+
+---
 
 ## Publish a package for react + typescript
 
