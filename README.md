@@ -1,3 +1,10 @@
+<p align="center">
+  <a href="https://www.npmjs.com/react-debounce-rendering"><img src="https://img.shields.io/npm/v/react-debounce-rendering.svg?label=%20&style=flat-square" alt="react-debounce-rendering NPM package" /></a>
+  <a href="https://www.npmjs.com/react-debounce-rendering"><img src="https://img.shields.io/npm/dw/react-debounce-rendering.svg?style=flat-square" alt="Download arkit" /></a>
+</p>
+
+---
+
 # react-debounce-rendering
 
 [react-debounce-render](https://github.com/podefr/react-debounce-render) + typescript
@@ -7,7 +14,7 @@ npm install --save react-debounce-rendering
 ```
 
 ```tsx
-const debouncedComponent = debounceRender(<YourComponent>, 1000, {})
+const debouncedComponent = debounceRender(<YourComponent />, 1000, {})
 ```
 
 Notice usage with redux:  
